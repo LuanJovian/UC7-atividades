@@ -16,11 +16,21 @@
 ---
 5. Descreva a função da tag `<p>` e explique quando ela deve ser utilizada em uma página HTML. 
     - A tag `<p>` é destinada a receber textos em formato de parágrafo. 
+
 1. Diferencie o uso das tags `<br>` e `<p>` quanto à organização textual em uma página web. 
-    - A tag `<br>` cria uma quebra de linha, enquanto a tag `<p>`.
+    - A tag `<p>` é uma tag semântica que contém um bloco de texto, ou seja, ela constitui parágrafos de forma estruturada em unidades que fazem sentido.
+    - Já a tag `<br>` cria uma quebra de linha, deve-se utilizá-la  quando há necessidade de separar elementos de forma gráfica, quando a separação por parágrafos não for coveniente. Não convém usá-la de forma indiscriminada. 
+
 1. Explique a finalidade da tag `<hr>` e em quais contextos ela pode ser utilizada na estrutura visual do conteúdo.
+    - Uma tag `<hr>` indica uma linha horizontal que divide sessões de um texto, deve ser utilizada quando se quer deixar claro o limite entre sessões.
+
 1. Descreva o funcionamento dos comentários em HTML utilizando a tag `<!-- -->` e sua importância para manutenção do código. 
+    - Em HTML os comentários são acrescentados dentro desta tag `<!-- -->`. Os comentários, são trechos do código que são ignorados pelo navegador na hora de reproduzir a página HTML. Eles servem para facilitar o compartilhamento de informação entre desenvolvedores e podem ajudar na leitura do código.
+
 1. Diferencie listas ordenadas e não ordenadas em HTML, destacando as tags `<ol>` e `<ul>`
+    - A tag `<ol>` indica uma lista ordenada, utilizada quando há necessidade de organizar de forma sequencial os elementos, os quais serão exibidos de forma numerada na página.
+    - Já a tag `<ul>` indica uma lista não ordenada.
+
 ---
 10. Explique a função da tag `<li>` e sua dependência estrutural em relação às tags de lista.
 1. Descreva a finalidade da tag `<a>` e explique o papel do atributo href na navegação entre páginas. 
