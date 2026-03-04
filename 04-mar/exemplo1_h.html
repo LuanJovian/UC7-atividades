@@ -8,7 +8,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: sans-serif;
+            font-family: monospace;
             color: #ffffff;
         }
 
@@ -33,22 +33,40 @@
 
         form{
             margin: 0 auto;
-            border: 1px solid black;
             padding: 40px;
             margin-bottom: 25px;
+            border-radius: 25px;
         }
 
         label{
             display: inline-block;
-            margin-bottom: 5px; 
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold; 
         }
 
 
         input{
             width: 100%;
-            height: 30px;
+            height: 40px;
             border-radius: 15px;
             margin-bottom: 20px;
+            font-size: 16px;
+        }
+        
+        label+input{
+            padding: 10px;
+            background-color: #ffffff3d;
+        }
+
+        section ~ button{
+            display: block;
+            background-color: #0098fdaf;
+            font-size: 18px;
+            height: 30px;
+            width: 170px;
+            border-radius: 15px;
+            margin-top: 20px;
         }
 
         footer{
