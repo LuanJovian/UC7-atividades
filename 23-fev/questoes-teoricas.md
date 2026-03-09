@@ -1,4 +1,10 @@
 # Atividades teóricas
+## Referência: 
+- Arquivo: ["Aula 13.pptx"](https://docs.google.com/presentation/d/1_i0_q0c1L23zcVQN1zE9oRFsHsStdybT/edit?slide=id.g3933759b401_0_30#slide=id.g3933759b401_0_30)
+- Data: 23/02/2026
+
+---
+### Slide 21
 1. Explique a função da declaração `<!DOCTYPE html>` em um documento HTML e sua importância para a renderização nos navegadores modernos. 
     - Informar ao navegador qual tipo de documento vai ser decodificado por ele.
 
@@ -14,6 +20,7 @@
     -  A tag `<h1>` é o título principal da página. É importante que haja uma única tag `<h1>` em cada página. Ela indica aos mecanismos de pesquisa o tema do qual aquela página trata.
     - Tags `<h2>` a `<h6>` são subtítulos que nomeiam sessões e subsessões da página, elas também auxiliam os mecanismos de busca, mas tem uma inportância inferior à `<h1>`.
 ---
+### Slide 22
 5. Descreva a função da tag `<p>` e explique quando ela deve ser utilizada em uma página HTML. 
     - A tag `<p>` é destinada a receber textos em formato de parágrafo. 
 
@@ -32,6 +39,7 @@
     - Já a tag `<ul>` indica uma lista não ordenada.
 
 ---
+### Slide 23
 10. Explique a função da tag `<li>` e sua dependência estrutural em relação às tags de lista.
     - A tag `<li>` é uma tag filha da tag `<ol>` ou da tag `<ul>` e corresponde a um item de lista, seja ela ordenada ou não ordenada.
 
@@ -49,6 +57,8 @@
 1. Explique como as tags estruturais e semânticas contribuem para a organização, legibilidade e manutenção do código HTML.
 
 --- 
+### Slide 24
+
 15. Analise a importância da separação entre conteúdo visível (`<body>`) e metadados (`<head>`) na estrutura de um documento HTML bem organizado. 
 
 
