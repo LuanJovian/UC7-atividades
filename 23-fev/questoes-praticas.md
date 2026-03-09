@@ -6,6 +6,7 @@
 
 ---
 ### Slide 25
+- Resolução <a href="quest1-5.html">quest1-5.html</a>
 1. Elabore a estrutura básica de um documento HTML5 contendo as tags `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>` e `<body>`. 
 1. Crie uma página HTML que contenha um título principal utilizando `<h1>` e dois subtítulos utilizando `<h2>` e `<h3>`. 
 1. Desenvolva um trecho de código HTML que apresente três parágrafos distintos utilizando a tag `<p>`. 
