@@ -4,17 +4,18 @@
 ### *Status*: em andamento ⏳
 ---
 ### Slide 133:
-1. Considerando os arquivos dos htmls semânticos (pasta Aula 20 - 04/03/2026), faça:
-
-    A. inserir css usando todos os seletores visto em aula.
-    B. Adicione novas funcionalidades nos htmls semânticos repassados.
+(Arquivos da Aula 20 - 04/03/2026)
+1. Considerando os arquivos dos htmls semânticos, faça:
+    - 1.1. inserir css usando todos os seletores visto em aula.
+    - 1.2. Adicione novas funcionalidades nos htmls semânticos repassados.
 
 
 ### Slide 134:
-1. Para os arquivos 1, 2 e 3, faça:
-1. Use seletor universal.
-1. Use seletores básicos.
-1. Use seletores combinados.
+(Arquivos da Aula 19 - 03/03/2026)
+1. Para os arquivos 1, 2 e 3 , faça:
+    - A. Use seletor universal.
+    - B. Use seletores básicos.
+    - C. Use seletores combinados.
 
 ### Slide 135:
 1. Escreva um seletor CSS que estilize todos os `<p>` dentro de uma `<div>`. 
