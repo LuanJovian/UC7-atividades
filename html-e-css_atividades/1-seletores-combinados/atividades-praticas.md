@@ -9,6 +9,18 @@
     - 1.1. inserir css usando todos os seletores visto em aula.
     - 1.2. Adicione novas funcionalidades nos htmls semânticos repassados.
 
+        - [Exemplo 1](./arquivos-aula-20/exemplo1_h.html)
+            - 1.1 - ✅ 
+            - 1.2 - 
+        - [Exemplo 2](./arquivos-aula-20/exemplo2_h.html)
+            - 1.1 - ⏳
+            - 1.2 - 
+        - [Exemplo 3](./arquivos-aula-20/exemplo3_h.html)
+            - 1.1 - 
+            - 1.2 - 
+        - [Exemplo 4](./arquivos-aula-20/exemplo4_h.html)
+            - 1.1 - 
+            - 1.2 - 
 
 ### Slide 134:
 (Arquivos da Aula 19 - 03/03/2026)
