@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Perfil - Gradiente Premium</title>
+
+<style>
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* GRADIENTE PRINCIPAL (PROFISSIONAL) */
+body{
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    min-height:100vh;
+    background:
+        radial-gradient(circle at 20% 20%, #e0e7ff 0%, transparent 40%),
+        radial-gradient(circle at 80% 0%, #dbeafe 0%, transparent 45%),
+        linear-gradient(135deg, #0f172a, #1e3a8a, #4f46e5);
+    color:#0f172a;
+}
+
+/* HEADER COM GRADIENTE SUAVE ELEGANTE */
+header{
+    background: linear-gradient(90deg, #1e3a8a, #4f46e5);
+    color:white;
+    padding:30px;
+    text-align:center;
+    backdrop-filter: blur(6px);
+}
+
+h1{
+    margin-bottom:10px;
+    letter-spacing:1px;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin:0 12px;
+    padding:8px 16px;
+    border-radius:20px;
+    background: rgba(255,255,255,0.12);
+    font-weight:500;
+}
+
+nav a:hover{
+    background: rgba(255,255,255,0.25);
+}
+
+/* CONTEÚDO PRINCIPAL */
+main{
+    padding:40px;
+}
+
+/* CARDS COM EFEITO GLASS MODERNO */
+section{
+    background: rgba(255,255,255,0.92);
+    border-radius:18px;
+    padding:30px;
+    margin-bottom:30px;
+    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+h2{
+    margin-bottom:20px;
+    color:#1e3a8a;
+}
+
+/* BLOCO INFORMATIVO */
+article{
+    padding:18px;
+    border-radius:12px;
+    background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+    margin-bottom:15px;
+}
+
+aside{
+    margin-top:20px;
+    padding:20px;
+    border-radius:14px;
+    background: linear-gradient(135deg, #dbeafe, #e0f2fe);
+}
+
+/* FORMULÁRIO */
+form{
+    width:100%;
+}
+
+fieldset{
+    border:none;
+    border-radius:16px;
+    padding:25px;
+    margin-bottom:20px;
+    background: linear-gradient(180deg, #ffffff, #f8fafc);
+}
+
+legend{
+    font-weight:bold;
+    font-size:18px;
+    color:#1e3a8a;
+    padding:0 10px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:600;
+}
+
+/* INPUTS COM VISUAL PREMIUM */
+input, select, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:6px;
+    border-radius:12px;
+    border:1px solid #cbd5f5;
+    background:#ffffff;
+    transition:0.2s;
+}
+
+input:focus, select:focus, textarea:focus{
+    outline:none;
+    border:1px solid #4f46e5;
+    box-shadow:0 0 0 3px rgba(79,70,229,0.15);
+}
+
+textarea{
+    min-height:100px;
+    resize:vertical;
+}
+
+input[type="range"]{
+    padding:0;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    width:auto;
+    margin-right:8px;
+}
+
+/* BOTÃO COM GRADIENTE BONITO */
+button{
+    margin-top:25px;
+    padding:15px;
+    width:100%;
+    border:none;
+    border-radius:14px;
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+    background: linear-gradient(135deg, #4f46e5, #6366f1, #3b82f6);
+    box-shadow: 0 10px 20px rgba(79,70,229,0.3);
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(79,70,229,0.35);
+}
+
+/* TABELA ELEGANTE */
+table{
+    width:100%;
+    border-collapse:collapse;
+    border-radius:14px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+thead{
+    background: linear-gradient(90deg, #1e3a8a, #4f46e5);
+    color:white;
+}
+
+th{
+    padding:14px;
+    text-align:left;
+}
+
+td{
+    padding:14px;
+    background:white;
+    border-bottom:1px solid #e5e7eb;
+}
+
+tbody tr:hover{
+    background:#f1f5f9;
+}
+
+/* RODAPÉ */
+footer{
+    text-align:center;
+    padding:25px;
+    color:white;
+    background: linear-gradient(90deg, #1e3a8a, #0f172a);
+    margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Sistema de Perfil do Usuário</h1>
+    <nav>
+        <a href="#">Perfil</a>
+        <a href="#">Preferências</a>
+        <a href="#">Conta</a>
+        <a href="#">Relatórios</a>
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h2>Visão Geral</h2>
+    <article>
+        <p>Gerencie suas informações pessoais e preferências visuais em um painel moderno com gradiente premium.</p>
+    </article>
+
+    <aside>
+        <p>Status: Conta ativa</p>
+        <p>Tema: Gradiente Profissional</p>
+        <p>Nível de personalização: Avançado</p>
+    </aside>
+</section>
+
+<section>
+    <h2>Configurações do Usuário</h2>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label>Nome</label>
+            <input type="text" placeholder="Digite seu nome">
+
+            <label>Email</label>
+            <input type="email" placeholder="Digite seu email">
+
+            <label>Data de Nascimento</label>
+            <input type="date">
+
+            <label>Foto de Perfil</label>
+            <input type="file">
+
+            <label>Biografia</label>
+            <textarea placeholder="Fale sobre você"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+
+            <label>Cor do Tema</label>
+            <input type="color">
+
+            <label>Nível de Brilho</label>
+            <input type="range" min="0" max="100">
+
+            <label>Modo do Sistema</label>
+            <p>
+                <input type="radio" name="modo"> Claro
+                <input type="radio" name="modo"> Escuro
+                <input type="radio" name="modo"> Automático
+            </p>
+
+            <label>Notificações</label>
+            <p>
+                <input type="checkbox"> Email
+                <input type="checkbox"> Push
+                <input type="checkbox"> SMS
+            </p>
+
+            <button type="submit">Salvar Configurações</button>
+        </fieldset>
+    </form>
+</section>
+
+<section>
+    <h2>Resumo do Sistema</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Configuração</th>
+                <th>Status</th>
+                <th>Atualização</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tema Visual</td>
+                <td>Gradiente Premium</td>
+                <td>Ativo</td>
+            </tr>
+            <tr>
+                <td>Notificações</td>
+                <td>Habilitadas</td>
+                <td>Atualizado</td>
+            </tr>
+            <tr>
+                <td>Perfil</td>
+                <td>Completo</td>
+                <td>Sincronizado</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Sistema HTML Semântico + CSS com seletor de tag e gradiente premium</p>
+</footer>
+
+</body>
+</html>

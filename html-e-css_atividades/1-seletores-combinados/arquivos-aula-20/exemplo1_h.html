@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Sistema de Login</title>
-    <style>
-        *{
+<meta charset="UTF-8">
+<title>Sistema de Login</title>
+<style>
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -12,33 +12,33 @@
             color: #ffffff;
         }
 
-        body{
+        body {
             background-color: #000033;
         }
 
-        main{
+        main {
             width: 100%;
             max-width: 700px;
             padding: 30px;
-            margin: 200px auto 0;
+            margin: 100px auto;
             border-radius: 35px;
             background-color: #002770;
         }
 
-        h1{
+        main h1 {
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             margin-bottom: 25px;
         }
 
-        form{
+        main > form {
             margin: 0 auto;
             padding: 40px;
             margin-bottom: 25px;
             border-radius: 25px;
         }
 
-        label{
+        label {
             display: inline-block;
             margin-bottom: 10px;
             font-size: 18px;
@@ -46,7 +46,7 @@
         }
 
 
-        input{
+        input {
             width: 100%;
             height: 40px;
             border-radius: 15px;
@@ -54,7 +54,7 @@
             font-size: 16px;
         }
         
-        label+input{
+        label + input {
             padding: 10px;
             background-color: #ffffff3d;
         }
@@ -73,31 +73,34 @@
             text-align: end;
         }
     </style>
+
 </head>
 
 <body>
-    <main>
-        <header>
-            <h1>Login</h1>
-        </header>
 
-        <form>
-            <section>
-                <label for="email">Email</label>
-                <input type="email" id="email">
-            </section>
+<main>
+    <header>
+        <h1>Login</h1>
+    </header>
 
-            <section>
-                <label for="senha">Senha</label>
-                <input type="password" id="senha">
-            </section>
+    <form>
+        <section>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </section>
 
-            <button type="submit">Entrar</button>
-        </form>
+        <section>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha">
+        </section>
 
-        <footer>
-            <p>© 2026 Sistema Seguro</p>
-        </footer>
-    </main>
+        <button type="submit">Entrar</button>
+    </form>
+
+    <footer>
+        <p>© 2026 Sistema Seguro</p>
+    </footer>
+</main>
+
 </body>
 </html>

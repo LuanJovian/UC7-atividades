@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Produtos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: #f3f3f3;
+        }
+        
+        
+        header h1 {
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+
+        main {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto 80px;
+            background-color: #FFFFFF;
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+        
+
+        main>section {
+            display: flex;
+            flex-direction: column;
+            padding: 25px 20px 15px;  
+            margin-bottom: 30px;
+        }
+
+        section h2{
+            margin-bottom: 15px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 25px;
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid gray;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+        }
+
+        form label {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        
+        
+        label~input {
+            display:  block;
+            margin-bottom: 15px;
+            height: 30px;
+            width: 100%;
+            font-size: 16px;
+            padding-left: 10px;
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+
+        form > button {
+            font-size: 16px;
+            font-weight: bold;
+            background-color: lightgray;
+            margin-top: 10px;
+            height: 30px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            width: 200px;
+            cursor: pointer;
+            align-self: flex-end;
+        }
+        
+        h2+table {
+            margin: 0 auto;
+            border: 1px solid black;
+            min-width: 400px;
+            border-radius: 5px;
+        }
+        
+        table thead{
+            background-color: lightgray;
+        }
+      
+        table td{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Cadastro de Produtos</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Novo Produto</h2>
+            <form>
+                <label>Nome</label>
+                <input type="text">
+
+                <label>Preço</label>
+                <input type="number">
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Lista de Produtos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Produto Exemplo</td>
+                        <td>R$ 100,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
