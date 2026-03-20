@@ -1,7 +1,6 @@
 # Atividades práticas - Seletores Combinados
 ### Arquivo de referência: "Aula 26.pptx"
 ### Assunto: Seletores combinados
-### *Status*: em andamento ⏳
 ---
 ### Slide 133:
 (Arquivos da Aula 20 - 04/03/2026)
@@ -13,7 +12,7 @@
             - 1.1 - ✅ 
             - 1.2 - 
         - [Exemplo 2](./arquivos-aula-20/exemplo2_h.html)
-            - 1.1 - ⏳
+            - 1.1 - ✅
             - 1.2 - 
         - [Exemplo 3](./arquivos-aula-20/exemplo3_h.html)
             - 1.1 - 
