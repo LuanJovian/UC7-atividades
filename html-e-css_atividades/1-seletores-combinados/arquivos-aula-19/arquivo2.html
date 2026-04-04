@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Tarefas</title>
+
+    <style>
+        /* RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ESTILO GLOBAL */
+        body {
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            background: linear-gradient(135deg, #eef2ff, #f8fafc);
+            color: #1f2937;
+        }
+
+        header {
+            background: linear-gradient(90deg, #0f172a, #1e293b);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #cbd5f5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            padding: 6px 12px;
+            border-radius: 20px;
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        nav a:hover {
+            background-color: rgba(255,255,255,0.3);
+            color: white;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 12px;
+            background: white;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #0f172a;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+        }
+
+        article {
+            padding: 15px;
+            border-radius: 10px;
+            background: #f1f5f9;
+            margin-bottom: 10px;
+        }
+
+        aside {
+            margin-top: 20px;
+            padding: 20px;
+            background: #e0f2fe;
+            border-left: 6px solid #0284c7;
+            border-radius: 8px;
+        }
+
+        form {
+            width: 100%;
+        }
+
+        fieldset {
+            border: 2px dashed #cbd5e1;
+            padding: 25px;
+            border-radius: 12px;
+            background: #f8fafc;
+        }
+
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+            color: #0f172a;
+            padding: 0 10px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+            background: white;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 14px;
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #6366f1, #3b82f6);
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        thead {
+            background: #0f172a;
+            color: white;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f8fafc;
+        }
+
+        progress {
+            width: 100%;
+            height: 20px;
+            margin-top: 10px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            background: #0f172a;
+            color: #cbd5f5;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sistema de Gestão de Tarefas</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Nova Tarefa</a>
+        <a href="#">Relatórios</a>
+        <a href="#">Configurações</a>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Painel Geral</h2>
+        <article>
+            <p>Bem-vindo ao sistema de gerenciamento de tarefas. Organize suas atividades e acompanhe o progresso diário.</p>
+        </article>
+
+        <aside>
+            <p>Tarefas concluídas: 5</p>
+            <p>Tarefas pendentes: 3</p>
+            <p>Progresso semanal:</p>
+            <progress value="60" max="100"></progress>
+        </aside>
+    </section>
+
+    <section>
+        <h2>Cadastro de Nova Tarefa</h2>
+        <form>
+            <fieldset>
+                <legend>Informações da Tarefa</legend>
+
+                <label for="titulo">Título da Tarefa</label>
+                <input type="text" id="titulo" placeholder="Digite o título da tarefa">
+
+                <label for="descricao">Descrição</label>
+                <textarea id="descricao" placeholder="Descreva a tarefa"></textarea>
+
+                <label for="prioridade">Prioridade</label>
+                <select id="prioridade">
+                    <option>Selecione</option>
+                    <option>Baixa</option>
+                    <option>Média</option>
+                    <option>Alta</option>
+                </select>
+
+                <label for="data">Data de Entrega</label>
+                <input type="date" id="data">
+
+                <button type="submit">Salvar Tarefa</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+        <h2>Lista de Tarefas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tarefa</th>
+                    <th>Prioridade</th>
+                    <th>Status</th>
+                    <th>Prazo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Planejar aula</td>
+                    <td>Alta</td>
+                    <td>Em andamento</td>
+                    <td>28/02/2026</td>
+                </tr>
+                <tr>
+                    <td>Corrigir atividades</td>
+                    <td>Média</td>
+                    <td>Pendente</td>
+                    <td>01/03/2026</td>
+                </tr>
+                <tr>
+                    <td>Preparar slides</td>
+                    <td>Baixa</td>
+                    <td>Concluída</td>
+                    <td>25/02/2026</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Sistema HTML Semântico com CSS usando apenas seletores de tag</p>
+</footer>
+
+</body>
+</html>
